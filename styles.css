@@ -1,0 +1,113 @@
+/* 
+COLOR PALETTE
+off white: #f6f5f0;
+off-black: #262626;
+*/
+
+/* Global Styles 
+----------------------------------------------------*/
+/* *  {
+  border: 1px solid red;
+} */
+html  {
+  box-sizing: border-box;
+}
+*, *:before, *:after  {
+  box-sizing: inherit;
+}
+body  {
+  margin: 0;
+  background-color: #f6f5f0;
+  color: #262626;
+  font-family: 'Inter', Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a  {
+  text-decoration: none;
+}
+img  {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Header 
+----------------------------------------------------*/
+h1  {
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+/* Navigation 
+----------------------------------------------------*/
+
+/* Main 
+----------------------------------------------------*/
+/* .card  {
+  display: block;
+  margin: 0 auto;
+} */
+
+/* Footer 
+----------------------------------------------------*/
+.footer  {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+address  {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+address a  {
+  
+}
+address a img  {
+  width: 5vw;
+}
+
+/* Desktop Styles */
+.site  {
+  display: grid;
+  grid-template-columns: 30vw 1fr;
+  grid-template-rows: repeat(2, (minmax(max-content 1fr))) repeat(3, 1fr) minmax(max-content 30vh);
+  grid-template-areas:
+    "header main"
+    "nav main"
+    ". main"
+    ". main"
+    ". main"
+    "footer footer";
+}
+header  {
+  grid-area: header;
+}
+.navigation  {
+  grid-area: nav;
+}
+.content  {
+  grid-area: main;
+}
+.row  {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.column  {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 1rem;
+}
+.column figure {
+  margin: 1rem auto;
+  vertical-align: middle;
+  width: 100%;
+}
+.column img  {
+  max-width: 100%;
+}
+.footer  {
+  grid-area: footer;
+}
