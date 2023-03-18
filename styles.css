@@ -78,19 +78,19 @@ ul.mainmenu > li  {
   display: none;
 }
 .hover-img a span.projects  {
-  background: url(/images/hexblob.png) no-repeat center;
+  background: url(images/hexblob.png) no-repeat center;
   background-size: contain;
 }
 .hover-img a span.about  {
-  background: url(/images/circle.png) no-repeat center;
+  background: url(images/circle.png) no-repeat center;
   background-size: contain;
 }
 .hover-img a span.skills  {
-  background: url(/images/diamond.png) no-repeat center;
+  background: url(images/diamond.png) no-repeat center;
   background-size: contain;
 }
 .hover-img a span.contact  {
-  background: url(/images/triblob.png) no-repeat center;
+  background: url(images/triblob.png) no-repeat center;
   background-size: contain;
 }
 .hover-img a:hover  {
@@ -118,19 +118,19 @@ figure.oval  {
   object-fit: cover;
   -webkit-mask-size: 100%;
   mask-size: cover;
-  -webkit-mask: url(/images/blob.svg) center/contain no-repeat;
+  -webkit-mask: url(images/blob.svg) center/contain no-repeat;
 }
 figure.hex  {
   object-fit: cover;
   -webkit-mask-size: cover;
   mask-size: cover;
-  -webkit-mask: url(/images/hexagon.svg) center/contain no-repeat;
+  -webkit-mask: url(images/hexagon.svg) center/contain no-repeat;
 }
 figure.bean  {
   object-fit: cover;
   -webkit-mask-size: cover;
   mask-size: cover;
-  -webkit-mask: url(/images/bean.svg) center/contain no-repeat;
+  -webkit-mask: url(images/bean.svg) center/contain no-repeat;
 }
 div.oval:hover, div.hex:hover, div.bean:hover, figure.oval:hover, figure.hex:hover, figure.bean:hover  {
   background-color: #f6f5f0;
@@ -190,7 +190,6 @@ address a img  {
   .site  {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: repeat(2,(minmax(max-content 1fr))) repeat(3, 1fr) minmax(max-content 30vh);
     grid-template-rows: repeat(2, max-content) repeat(3, 1fr) 25vh;
     grid-template-areas:
       "header main"
