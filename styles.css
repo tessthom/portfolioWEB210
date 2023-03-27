@@ -101,6 +101,10 @@ ul.nav-list  {
   padding: 0 0 0 2vw;
   transition: .5s;
 }
+.nav-list .nav-item .nav-link  {
+  display: inline-block;
+  width: 100%;
+}
 .nav-container .navbar-toggle  {
   display: none;
   height: min-content;
@@ -115,7 +119,7 @@ ul.nav-list  {
   margin-bottom: 10px;
   background: #262626;
   border-radius: 10%;
-  transition: .5s;
+  transition: .6s;
 }
 input  {
   display: none;
@@ -539,6 +543,7 @@ address a img  {
   }
   figure.card  {
     display: grid;
+    border-radius: 10px;
   }
   .column > a > div  {
     border: none;
@@ -578,5 +583,19 @@ address a img  {
     grid-area: footer;
     margin: 0 auto;
     justify-content: space-between;
+  }
+  address a img  {
+    transition: transform 0.3s ease-out;
+  }
+  address a img:hover  {
+    animation: wiggle 0.3s ease-in-out 1;
+  }
+  @keyframes wiggle  {
+    0%  {
+      transform: scale(1.05) rotate(5deg);
+    }
+    100%  {
+      transform: scale(1.05) rotate(-5deg);
+    }
   }
 }
