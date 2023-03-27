@@ -549,7 +549,7 @@ address a img  {
     grid-row: 1;
   }
   .card img  {
-    border-radius: 5px;
+    border-radius: 10px;
   }
   figcaption  {
     min-width: 100%;
@@ -568,6 +568,7 @@ address a img  {
   }
   figcaption:hover  {
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
   }
   figcaption:hover h2  {
     display: block;
