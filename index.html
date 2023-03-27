@@ -13,27 +13,35 @@
 
 <body class="site">
 <!-- Header -->
-  <header class="header">
-    <h1>Tess<br>Thomas</h1>
-  </header>
+  <input type="checkbox" id="toggle">
+  <div class="nav-container">
+    <header class="header">
+      <h1>Tess <br class="desktop">Thomas</h1>
+    </header>
 
-<!-- Navigation -->
-  <nav class="navigation" role="navigation">
-    <ul class="mainmenu">
-      <li class="hover-icon"><a href="#">Projects<span class="projects"></span></a></li>
-      <li class="hover-icon"><a href="#">About<span class="about"></span></a></li>
-      <li class="hover-icon"><a href="#">Skills<span class="skills"></span></a></li>
-      <li class="hover-icon"><a href="#">Contact<span class="contact"></span></a></li>
-    </ul>
-  </nav>
+  <!-- Navigation -->
+    <label class="navbar-toggle" for="toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </label>
 
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#">Projects<span class="projects"></span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About<span class="about"></span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Skills<span class="skills"></span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact<span class="contact"></span></a></li>
+      </ul>
+    </nav>
+  </div>
 <!-- Main Content -->
   <main class="content">
     <div class="row">
 
       <div class="column left">
         <a target="_blank" href="https://wcet.waketech.edu/abthomas3/web110/finalProject/index.html">
-          <div>
+          <div class="left-1">
             <figure class="card">
               <img src="images/petalsHome.png" alt="petals in the park event home page">
               <figcaption><h2>Petals in the Park - Home</h2></figcaption>
@@ -42,7 +50,7 @@
         </a>
 
         <a target="_blank" href="https://wcet.waketech.edu/abthomas3/web140/viciousCycles/classes.html">
-          <div class="oval">
+          <div class="oval left-2">
             <figure class="oval card">
               <img src="images/vcForm.png" alt="Vicious Cycles bicycle shop class sign up form">
               <figcaption><h2>Class Sign Up Form</h2></figcaption>
@@ -51,7 +59,7 @@
         </a>
 
         <a target="_blank" href="https://www.postandcourier.com/spoleto/spoletos-eugene-onegin-updates-a-classic-and-universal-story/article_2fb03e54-3f3d-11e7-8d6e-6b3530a54f00.html">
-          <div>
+          <div class="left-3">
             <figure class="card">
               <img src="images/opera.png" alt="Wide view of theatrical set for Eugene Onegin opera. White birch trees hang under a full moon. Designed and fabricated for Christopher Barecca.">
               <figcaption><h2>Set Design - Opera</h2></figcaption>
@@ -62,7 +70,7 @@
 
       <div class="column right">
         <a target="_blank" href="https://wcet.waketech.edu/abthomas3/web140/viciousCycles/index.html">
-          <div class="hex">
+          <div class="hex right-1">
             <figure class="hex card">
               <img src="images/vcHome.png" alt="Vicious Cycles bicycle shop project home page" class="hexagon">
               <figcaption><h2>Vicious Cycles Home</h2></figcaption>
@@ -71,7 +79,7 @@
         </a>
 
         <a target="_blank" href="https://www.dwell.com/article/metamorphosis-house-kevan-hoertdoerfer-architects-331a0d46/cover">
-          <div>
+          <div class="right-2">
             <figure class="card">
               <img src="images/stairs.png" alt="wide interior shot of colorful hand painted floating stairs in a modern open concept living space">
               <figcaption><h2>Diebenkorn Stairs - Dwell Magazine</h2></figcaption>
@@ -80,7 +88,7 @@
         </a>
 
         <a target="_blank" href="https://wcet.waketech.edu/abthomas3/web110/finalProject/confirm.html">
-          <div class="bean">
+          <div class="bean right-3">
             <figure class="bean card">
               <img src="images/petalsConfirm.png" alt="Petals in the Park event sign up confirmation page">
               <figcaption><h2>Event Confirmation Page</h2></figcaption>
